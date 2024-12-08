@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переводческое бюро</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('https://cdn.culture.ru/images/053ef29b-cf5f-53da-99b4-d455bfc3d1bc') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #555;
+            border-radius: 4px;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            text-align: center;
+            color: #007BFF;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .card img {
+            width: 50%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 1rem 0;
+            font-size: 1.25rem;
+        }
+        .card p {
+            margin: 0.5rem 0 1rem;
+        }
+        .card a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover {
+            color: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Переводческое бюро</h1>
+        <p>Мы переводим слова, а вы — покоряете мир!</p>
+    </header>
+    <nav>
+        <a href="#services">Услуги</a>
+        <a href="#team">Команда</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://kgb-ls.kz/images/perevod-dokumentov-na-angliyskiy-almaty.jpg" alt="Перевод документов">
+                <h3>Перевод документов</h3>
+                <p>Профессиональный перевод документов, книг и статей.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5487/5487061.png"alt="Локализация">
+                <h3>Локализация</h3>
+                <p>Адаптация сайтов и приложений для любых регионов.</p>
+            </div>
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/%D1%81%D1%83%D0%B1%D1%82%D0%B8%D1%82%D1%80%D1%8B-%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D1%82%D0%BE%D0%BD%D0%BA%D0%B0%D1%8F-%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B1%D0%BE%D1%80-%D0%B7%D0%BD%D0%B0%D1%87%D0%BA%D0%BE%D0%B2-340580741.jpg" alt="Субтитры">
+                <h3>Субтитры</h3>
+                <p>Создание субтитров и дубляжа для видео.</p>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <h2>Наша команда</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://i.ibb.co.com/zSbqQjD/img.jpg" alt="Алексей Иванов">
+                <h3>Мухамеджанова Сабина</h3>
+                <p>Генеральный директор. Опыт управления проектами более 10 лет.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co.com/gR0WNRq/Whats-App-2024-12-08-17-10-42-89f8ddd8.jpg"Қабылаш Назерке">
+                <h3>Қабылаш Назерке</h3>
+                <p>Главный переводчик. Специалист по английскому и китайскому языкам.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co.com/P1FY01T/Whats-App-2024-12-08-21-14-22-5f295f03.jpg" alt="Дмитрий Кузнецов">
+                <h3>Жумаева Адина</h3>
+                <p>IT-локализация. Эксперт по адаптации ПО для иностранных рынков.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co.com/HVmDwQV/Whats-App-2024-12-08-21-14-33-ebea4dc7.jpg" alt="Анна Смирнова">
+                <h3>Жақсыбаева Айжан</h3>
+                <p>Маркетолог. Отвечает за продвижение услуг на международной арене.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co.com/HYMzqnH/Whats-App-2024-12-08-21-14-42-045037df.jpg" alt="Иван Сидоров">
+                <h3>Құрбанбек Нұрай</h3>
+                <p>Менеджер проектов. Организует работу над заказами клиентов.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Наши проекты</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Проект Trello</h3>
+                <p>Отслеживаем задачи и этапы выполнения.</p>
+                <a href="https://trello.com/b/W4ZnzRs9/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D0%B1%D1%8E%D1%80%D0%BE" target="_blank">Смотреть на Trello</a>
+            </div>
+            <div class="card">
+                <img src="https://i.ibb.co.com/R2fSmwS/BA8-F5279-B24-C-4997-B58-E-ED041-FFA70-F5.png" alt="Python">
+                <h3>Проект Python</h3>
+                <p>Реализуем автоматизацию процессов.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Email: INFO@ablaikhan.kz</p>
+        <p>Телефон: +7 707 709 3224</p>
+        <p>Адрес: Абая 157а, 050009 Алматы, Казахстан</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Переводческое бюро. Все права защищены.</p>
+    </footer>
+</body>
+</html>
